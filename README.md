@@ -1,4 +1,4 @@
-# oobabooga-one-click-bandaid
+# oobabooga-one-click-bandaid (windows native solution)
 A simple batch file to make the oobabooga one click installer compatible with llama 4bit models and able to run on cuda
 1. download and extract the windows zip file from here: https://github.com/oobabooga/text-generation-webui/releases
 2. place `bandaid.bat` in the same folder as `install.bat`
