@@ -22,3 +22,5 @@ models\
 7. double click on `start-webui.bat`
 
 If you are still getting cuda errors, you are on your own. This is what worked for me. Good luck!
+
+Credit: I just slapped this .bat file together. Most of the hard work was done by the users in this thread: https://github.com/qwopqwop200/GPTQ-for-LLaMa/issues/11#issuecomment-1464958666
