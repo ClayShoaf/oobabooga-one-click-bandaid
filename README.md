@@ -21,6 +21,10 @@ models\
 6. make sure tokenizer_config.json says `"tokenizer_class": "LlamaTokenizer"` and not `"tokenizer_class": "LLaMATokenizer"`
 7. double click on `start-webui.bat`
 
+And that's it! You should have a working install now. Just double click on `start-webui.bat`.
+
+
+>Note: Apparently some people are having trouble with Windows 11. You may have to manually edit your `start-webui.bat` file and change the line `call python server.py --auto-devices --cai-chat` to `call python server.py --auto-devices --cai-chat --gptq-bits 4 --gptq-model-type LLaMa`, and then double click `install.bat` and let it run all the way through one more time.
 If you are still getting cuda errors, you are on your own. This is what worked for me. Good luck!
 
 Credit: I just slapped this .bat file together. Most of the hard work was done by the users in this thread: https://github.com/qwopqwop200/GPTQ-for-LLaMa/issues/11#issuecomment-1464958666
