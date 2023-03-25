@@ -1,3 +1,6 @@
+*Update*: These fixes have been included in this `install.bat` file: https://github.com/jllllll/one-click-installers
+You should be able to just clone that repo and run `install.bat` there, without the need for running the code here.
+
 # oobabooga-one-click-bandaid (windows native solution)
 A simple batch file to make the oobabooga one click installer compatible with llama 4bit models and able to run on cuda
 1. download and extract the windows zip file from here: https://github.com/oobabooga/text-generation-webui/releases
